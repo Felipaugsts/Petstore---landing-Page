@@ -1,0 +1,53 @@
+.subNav {
+  font-family: inter !important;
+  font-weight: 600;
+  height: 50px;
+  width: 65%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  max-width: 1170px !important;
+}
+
+.text-wrapper {
+  display: flex;
+  justify-content: center;
+  background: red;
+}
+#nav {
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+.hide-wrapper {
+  display: none;
+}
+#nav a.router-link-exact-active {
+  color: #42b983;
+}
+.icon {
+  font-size: 25px;
+  color: cornflowerblue;
+  margin-right: 5px;
+}
+
+.logo {
+  height: 100px;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.field {
+  height: 30px;
+  margin-top: 10px;
+}
+.mobile {
+  display: none;
+}

@@ -1,0 +1,99 @@
+@media screen and (max-width: 1024px) {
+  .subNav {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .subNav {
+    width: 100%;
+    font-size: 12px;
+  }
+  .option {
+    width: 140px !important;
+    font-size: 16px !important;
+  }
+  .tog,
+  .container {
+    width: 90% !important;
+  }
+  /* .imgoption {
+    width: 100% !important;
+  } */
+  .wrp {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .logo,
+  .field {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    margin-left: 25px;
+  }
+  .cart {
+    margin-right: 25px;
+  }
+  .subNav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    z-index: 100;
+    background: rgb(130, 77, 160);
+    opacity: 0.8;
+    position: fixed;
+    width: 100%;
+    font-size: 18px;
+  }
+  #nav {
+    position: absolute;
+    z-index: 150;
+    width: 100%;
+    justify-content: space-between;
+    background: white;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  .person {
+    display: none;
+  }
+  .option {
+    max-width: 90px !important;
+    height: 60px !important;
+    font-size: 12px !important;
+  }
+  .tog {
+    width: 95% !important;
+    justify-content: center !important;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sign-txt {
+    font-size: 18px !important;
+  }
+  .sub-txt {
+    font-size: 13px !important;
+  }
+  .containers {
+    width: 300px !important;
+    padding-right: 0px !important;
+  }
+  .imgoption {
+    width: 290px !important;
+  }
+  .wrpr {
+    display: none !important;
+  }
+  .frame {
+    background: transparent !important;
+  }
+  .image {
+    width: 290px !important;
+    margin: 0 !important;
+    padding: 0;
+  }
+}
